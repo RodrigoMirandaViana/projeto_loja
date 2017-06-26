@@ -240,7 +240,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
-    <Content Include="Imagens\oRokM.jpg" />
+    <Content Include="Imagens\camisetanba.jpg" />
+    <Content Include="Imagens\camisetanba2.jpg" />
+    <Content Include="Imagens\logosite.png" />
+    <Content Include="Imagens\nba.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -303,6 +306,8 @@
     <Content Include="Views\Produtoes\Index.cshtml" />
     <Content Include="Views\Shared\Inicio.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Loja.cshtml" />
+    <Content Include="Views\Home\DetalhesCamiseta.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

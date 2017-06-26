@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Loja";
+}
+
+<h2>Loja</h2>
+
+<!DOCTYPE html>
+
+<html>
+<head>  
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @*<img src="~/Imagens/camisetanba.jpg"/> <img src="~/Imagens/camisetanba2.jpg"/>*@
+    <a href='@Url.Action("DetalhesCamiseta", "Home")'><img src='@Url.Content("~/Imagens/camisetanba.jpg")' /></a>
+
+</body>
+</html>
+

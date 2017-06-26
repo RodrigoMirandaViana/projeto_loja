@@ -26,5 +26,14 @@ namespace ProjetoLoja.Controllers
 
             return View();
         }
+
+        public ActionResult Loja()
+        {
+            return View();
+        }
+        public ActionResult DetalhesCamiseta()
+        {
+            return View();
+        }
     }
 }
