@@ -304,14 +304,12 @@
     <Content Include="Views\Produtoes\Details.cshtml" />
     <Content Include="Views\Produtoes\Edit.cshtml" />
     <Content Include="Views\Produtoes\Index.cshtml" />
-    <Content Include="Views\Shared\Inicio.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Loja.cshtml" />
     <Content Include="Views\Home\DetalhesCamiseta.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Produtos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
