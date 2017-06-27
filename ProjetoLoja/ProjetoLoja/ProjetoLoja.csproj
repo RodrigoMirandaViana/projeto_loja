@@ -240,8 +240,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Imagens\bolanba.jpg" />
+    <Content Include="Imagens\bonenba.jpg" />
     <Content Include="Imagens\camisetanba.jpg" />
-    <Content Include="Imagens\camisetanba2.jpg" />
     <Content Include="Imagens\logosite.png" />
     <Content Include="Imagens\nba.png" />
     <Content Include="Scripts\bootstrap.js" />
