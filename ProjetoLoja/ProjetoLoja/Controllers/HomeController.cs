@@ -31,7 +31,7 @@ namespace ProjetoLoja.Controllers
         {
             return View();
         }
-        public ActionResult DetalhesCamiseta()
+        public ActionResult Carrinho()
         {
             return View();
         }

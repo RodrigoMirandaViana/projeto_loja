@@ -258,6 +258,7 @@
     <Content Include="Imagens\bolanba.jpg" />
     <Content Include="Imagens\bonenba.jpg" />
     <Content Include="Imagens\camisetanba.jpg" />
+    <Content Include="Imagens\carrinho.ico" />
     <Content Include="Imagens\james.jpeg" />
     <Content Include="Imagens\logosite.png" />
     <Content Include="Imagens\nba.png" />
@@ -334,6 +335,12 @@
     <Content Include="Views\Produtobolas\Details.cshtml" />
     <Content Include="Views\Produtobolas\Edit.cshtml" />
     <Content Include="Views\Produtobolas\Index.cshtml" />
+    <Content Include="Views\Home\Carrinho.cshtml" />
+    <Content Include="Views\Vendas\Create.cshtml" />
+    <Content Include="Views\Vendas\Delete.cshtml" />
+    <Content Include="Views\Vendas\Details.cshtml" />
+    <Content Include="Views\Vendas\Edit.cshtml" />
+    <Content Include="Views\Vendas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

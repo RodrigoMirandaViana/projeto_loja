@@ -47,11 +47,14 @@
             @Html.DisplayFor(modelItem => item.Disponibilidade)
         </td>
         <td>
+            @Html.CheckBox("Carrinho") Adicionar ao Carrinho
+        </td>
+        @*<td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ProdutoboneID }) |
             @Html.ActionLink("Details", "Details", new { id=item.ProdutoboneID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.ProdutoboneID })
-        </td>
+        </td>*@
     </tr>
 }
-
-</table>
+</table> 
+@Html.ActionLink("Meu Carrinho", "Carrinho", "Home", null, htmlAttributes: new { @class = "btn btn-default" })
