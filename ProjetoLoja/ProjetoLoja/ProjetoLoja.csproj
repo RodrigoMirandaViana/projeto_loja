@@ -243,6 +243,7 @@
     <Content Include="Imagens\bolanba.jpg" />
     <Content Include="Imagens\bonenba.jpg" />
     <Content Include="Imagens\camisetanba.jpg" />
+    <Content Include="Imagens\james.jpeg" />
     <Content Include="Imagens\logosite.png" />
     <Content Include="Imagens\nba.png" />
     <Content Include="Scripts\bootstrap.js" />
