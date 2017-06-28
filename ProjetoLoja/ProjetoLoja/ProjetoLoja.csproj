@@ -209,10 +209,25 @@
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProdutobolasController.cs" />
+    <Compile Include="Controllers\ProdutobonesController.cs" />
     <Compile Include="Controllers\ProdutoesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706281136034_InitialCreate.cs" />
+    <Compile Include="Migrations\201706281136034_InitialCreate.Designer.cs">
+      <DependentUpon>201706281136034_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706281202389_d.cs" />
+    <Compile Include="Migrations\201706281202389_d.Designer.cs">
+      <DependentUpon>201706281202389_d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706281221506_d1.cs" />
+    <Compile Include="Migrations\201706281221506_d1.Designer.cs">
+      <DependentUpon>201706281221506_d1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -309,6 +324,16 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Loja.cshtml" />
     <Content Include="Views\Home\DetalhesCamiseta.cshtml" />
+    <Content Include="Views\Produtobones\Create.cshtml" />
+    <Content Include="Views\Produtobones\Delete.cshtml" />
+    <Content Include="Views\Produtobones\Details.cshtml" />
+    <Content Include="Views\Produtobones\Edit.cshtml" />
+    <Content Include="Views\Produtobones\Index.cshtml" />
+    <Content Include="Views\Produtobolas\Create.cshtml" />
+    <Content Include="Views\Produtobolas\Delete.cshtml" />
+    <Content Include="Views\Produtobolas\Details.cshtml" />
+    <Content Include="Views\Produtobolas\Edit.cshtml" />
+    <Content Include="Views\Produtobolas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -324,6 +349,17 @@
       <Project>{4c9c463b-0a5f-442e-bcdc-792ad263b372}</Project>
       <Name>BaseModels</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201706281136034_InitialCreate.resx">
+      <DependentUpon>201706281136034_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706281202389_d.resx">
+      <DependentUpon>201706281202389_d.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706281221506_d1.resx">
+      <DependentUpon>201706281221506_d1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
