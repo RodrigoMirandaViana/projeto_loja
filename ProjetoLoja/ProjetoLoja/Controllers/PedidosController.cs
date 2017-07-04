@@ -47,7 +47,7 @@ namespace ProjetoLoja.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "PedidoID,Itens")] Pedido pedido)
+        public ActionResult Create([Bind(Include = "PedidoID,CEP,Endereco,Numero,Bairro,Cidade,Estado,Itens,FormaPagamento")] Pedido pedido)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace ProjetoLoja.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "PedidoID,Itens")] Pedido pedido)
+        public ActionResult Edit([Bind(Include = "PedidoID,CEP,Endereco,Numero,Bairro,Cidade,Estado,Itens,FormaPagamento")] Pedido pedido)
         {
             if (ModelState.IsValid)
             {
