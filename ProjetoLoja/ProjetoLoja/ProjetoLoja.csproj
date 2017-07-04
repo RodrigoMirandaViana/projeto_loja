@@ -232,9 +232,9 @@
     <Compile Include="Migrations\201707041304367_addpedidos.Designer.cs">
       <DependentUpon>201707041304367_addpedidos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201707041358375_AddStuffPedido.cs" />
-    <Compile Include="Migrations\201707041358375_AddStuffPedido.Designer.cs">
-      <DependentUpon>201707041358375_AddStuffPedido.cs</DependentUpon>
+    <Compile Include="Migrations\201707041449184_teste.cs" />
+    <Compile Include="Migrations\201707041449184_teste.Designer.cs">
+      <DependentUpon>201707041449184_teste.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -376,8 +376,8 @@
     <EmbeddedResource Include="Migrations\201707041304367_addpedidos.resx">
       <DependentUpon>201707041304367_addpedidos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201707041358375_AddStuffPedido.resx">
-      <DependentUpon>201707041358375_AddStuffPedido.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201707041449184_teste.resx">
+      <DependentUpon>201707041449184_teste.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
