@@ -209,6 +209,7 @@
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PedidosController.cs" />
     <Compile Include="Controllers\ProdutobolasController.cs" />
     <Compile Include="Controllers\ProdutobonesController.cs" />
     <Compile Include="Controllers\ProdutoesController.cs" />
@@ -226,6 +227,10 @@
     <Compile Include="Migrations\201706281221506_d1.cs" />
     <Compile Include="Migrations\201706281221506_d1.Designer.cs">
       <DependentUpon>201706281221506_d1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707041304367_addpedidos.cs" />
+    <Compile Include="Migrations\201707041304367_addpedidos.Designer.cs">
+      <DependentUpon>201707041304367_addpedidos.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -257,8 +262,6 @@
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Imagens\bolanba.jpg" />
     <Content Include="Imagens\bonenba.jpg" />
-    <Content Include="Imagens\camisetanba.jpg" />
-    <Content Include="Imagens\carrinho.ico" />
     <Content Include="Imagens\james.jpeg" />
     <Content Include="Imagens\logosite.png" />
     <Content Include="Imagens\nba.png" />
@@ -324,7 +327,6 @@
     <Content Include="Views\Produtoes\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Loja.cshtml" />
-    <Content Include="Views\Home\DetalhesCamiseta.cshtml" />
     <Content Include="Views\Produtobones\Create.cshtml" />
     <Content Include="Views\Produtobones\Delete.cshtml" />
     <Content Include="Views\Produtobones\Details.cshtml" />
@@ -336,11 +338,11 @@
     <Content Include="Views\Produtobolas\Edit.cshtml" />
     <Content Include="Views\Produtobolas\Index.cshtml" />
     <Content Include="Views\Home\Carrinho.cshtml" />
-    <Content Include="Views\Vendas\Create.cshtml" />
-    <Content Include="Views\Vendas\Delete.cshtml" />
-    <Content Include="Views\Vendas\Details.cshtml" />
-    <Content Include="Views\Vendas\Edit.cshtml" />
-    <Content Include="Views\Vendas\Index.cshtml" />
+    <Content Include="Views\Pedidos\Create.cshtml" />
+    <Content Include="Views\Pedidos\Delete.cshtml" />
+    <Content Include="Views\Pedidos\Details.cshtml" />
+    <Content Include="Views\Pedidos\Edit.cshtml" />
+    <Content Include="Views\Pedidos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -366,6 +368,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706281221506_d1.resx">
       <DependentUpon>201706281221506_d1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707041304367_addpedidos.resx">
+      <DependentUpon>201707041304367_addpedidos.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

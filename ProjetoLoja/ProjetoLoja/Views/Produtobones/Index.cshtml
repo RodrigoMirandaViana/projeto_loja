@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2></h2>
 
 <p>
     @*@Html.ActionLink("Create New", "Create")*@
@@ -46,9 +46,6 @@
         <td>
             @Html.DisplayFor(modelItem => item.Disponibilidade)
         </td>
-        <td>
-            @Html.CheckBox("Carrinho") Adicionar ao Carrinho
-        </td>
         @*<td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ProdutoboneID }) |
             @Html.ActionLink("Details", "Details", new { id=item.ProdutoboneID }) |
@@ -57,4 +54,4 @@
     </tr>
 }
 </table> 
-@Html.ActionLink("Meu Carrinho", "Carrinho", "Home", null, htmlAttributes: new { @class = "btn btn-default" })
+@Html.ActionLink("Meu Pedido", "Index", "Pedidos", null, htmlAttributes: new { @class = "btn btn-default" })

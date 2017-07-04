@@ -1,0 +1,25 @@
+﻿@model BaseModels.Pedido
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes do Pedido</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Itens)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Itens)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.PedidoID }) |
+    @Html.ActionLink("Voltar para a lista", "Index")
+</p>

@@ -38,5 +38,6 @@ namespace ProjetoLoja.Models
 
         public System.Data.Entity.DbSet<BaseModels.Produtobola> Produtobolas { get; set; }
 
+        public System.Data.Entity.DbSet<BaseModels.Pedido> Pedidoes { get; set; }
     }
 }
